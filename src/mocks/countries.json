@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Australia",
+        "iso2": "AU",
+        "currency_symbol": "$",
+        "currency_code": "AUD"
+    },
+    {
+        "name": "Brazil",
+        "iso2": "BR",
+        "currency_symbol": "R$",
+        "currency_code": "BRL"
+    },
+    {
+        "name": "Canada",
+        "iso2": "CA",
+        "currency_symbol": "$",
+        "currency_code": "CAD"
+    },
+    {
+        "name": "China",
+        "iso2": "CN",
+        "currency_symbol": "¥",
+        "currency_code": "CNY"
+    },
+    {
+        "name": "France",
+        "iso2": "FR",
+        "currency_symbol": "€",
+        "currency_code": "EUR"
+    },
+    {
+        "name": "Germany",
+        "iso2": "DE",
+        "currency_symbol": "€",
+        "currency_code": "EUR"
+    },
+    {
+        "name": "India",
+        "iso2": "IN",
+        "currency_symbol": "₹",
+        "currency_code": "INR"
+    },
+    {
+        "name": "Indonesia",
+        "iso2": "ID",
+        "currency_symbol": "Rp",
+        "currency_code": "IDR"
+    },
+    {
+        "name": "Italy",
+        "iso2": "IT",
+        "currency_symbol": "€",
+        "currency_code": "EUR"
+    },
+    {
+        "name": "Japan",
+        "iso2": "JP",
+        "currency_symbol": "¥",
+        "currency_code": "JPY"
+    },
+    {
+        "name": "Mexico",
+        "iso2": "MX",
+        "currency_symbol": "$",
+        "currency_code": "MXN"
+    },
+    {
+        "name": "Netherlands",
+        "iso2": "NL",
+        "currency_symbol": "€",
+        "currency_code": "EUR"
+    },
+    {
+        "name": "Russia",
+        "iso2": "RU",
+        "currency_symbol": "₽",
+        "currency_code": "RUB"
+    },
+    {
+        "name": "Saudi Arabia",
+        "iso2": "SA",
+        "currency_symbol": "ر.س",
+        "currency_code": "SAR"
+    },
+    {
+        "name": "South Africa",
+        "iso2": "ZA",
+        "currency_symbol": "R",
+        "currency_code": "ZAR"
+    },
+    {
+        "name": "South Korea",
+        "iso2": "KR",
+        "currency_symbol": "₩",
+        "currency_code": "KRW"
+    },
+    {
+        "name": "Spain",
+        "iso2": "ES",
+        "currency_symbol": "€",
+        "currency_code": "EUR"
+    },
+    {
+        "name": "Turkey",
+        "iso2": "TR",
+        "currency_symbol": "₺",
+        "currency_code": "TRY"
+    },
+    {
+        "name": "United Kingdom",
+        "iso2": "GB",
+        "currency_symbol": "£",
+        "currency_code": "GBP"
+    },
+    {
+        "name": "United States",
+        "iso2": "US",
+        "currency_symbol": "$",
+        "currency_code": "USD"
+    }
+]
