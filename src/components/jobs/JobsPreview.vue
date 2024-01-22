@@ -124,26 +124,6 @@ const countryList = ref(countries);
 const isSubmitted = ref(false)
 
 /**
- * Check Form validity
- */
-const checkForm = () => {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles
-    const forms = document.querySelectorAll('.needs-validation')
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-        .forEach(function (form) {
-            form.addEventListener('submit', function (event) {
-                if (!form.checkValidity()) {
-                    event.preventDefault()
-                    event.stopPropagation()
-                }
-
-                form.classList.add('was-validated')
-            }, false)
-        })
-}
-
-/**
  * Scroll to top after job is selected
  */
 const scrollToJobsPreview = () => {
@@ -182,17 +162,13 @@ const resetForm = () => {
  * Submit Form
  */
 const onSubmit = () => {
-    // isSubmitted.value = true;
-    // resetForm();
-
     // Fetch all the forms we want to apply custom Bootstrap validation styles
     const forms = document.querySelectorAll('.needs-validation');
 
     // Loop over them and check validity
     Array.prototype.slice.call(forms).forEach((form) => {
         if (form.checkValidity()) {
-            // Your form submission logic here
-            // For now, just reset the form and set isSubmitted to true
+            // Reset the form and set isSubmitted to true
             resetForm();
             isSubmitted.value = true;
         } else {
@@ -210,8 +186,6 @@ watchEffect(() => {
     }
 })
 
-onMounted(() => {
-    // checkForm();
-})
+onMounted(() => {})
 
 </script>
