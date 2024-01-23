@@ -14,3 +14,4 @@ Vue.js requires Node.js and npm (Node Package Manager) for development. Make sur
 
 ```bash
 npm i
+npm run dev
